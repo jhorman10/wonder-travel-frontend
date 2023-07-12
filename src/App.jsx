@@ -3,9 +3,9 @@ import { ReserveInfo } from './ReserveInfo';
 
 function App() {
   return (
-  <>
-  <ReserveInfo/>
-  </>
+    <>
+      <ReserveInfo />
+    </>
   );
 }
 

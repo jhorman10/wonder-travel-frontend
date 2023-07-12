@@ -1,22 +1,80 @@
-:root {
-  line-height: 1.5;
-  font-weight: 400;
+@font-face {
+  font-family: 'nova-regular';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-regular.otf');
+}
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+@font-face {
+  font-family: 'nova-bold';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-bold.otf');
+}
+
+@font-face {
+  font-family: 'nova-semibold';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-semibold.otf');
+}
+
+@font-face {
+  font-family: 'nova-italic';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-thinit.otf');
+}
+
+@font-face {
+  font-family: 'nova-light';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/Fontspring-DEMO-proximanovaexcn-light.otf');
+}
+
+@font-face {
+  font-family: 'Abril Fatface';
+  src: url('./assets/fonts/Proxima-Nova-Extra-Condensed/Demo_Fonts/AbrilFatface-Regular.ttf');
+}
+
+:root {
+  --transparent: hsla(0, 0%, 0%, 0);
+  --white: hsla(0, 0%, 100%, 1);
+  --gray-1: hsla(0, 0%, 0%, 0.16);
+  --gray-2: hsla(0, 0%, 0%, 0.24);
+  --gray-3: hsla(0, 0%, 0%, 0.27);
+  --gray-4: hsla(0, 0%, 0%, 0.28);
+  --gray-5: hsla(0, 0%, 0%, 0.29);
+  --gray-6: hsla(0, 0%, 0%, 0.3);
+  --gray-7: hsla(0, 0%, 44%, 1);
+  --dark-1: hsla(214, 8%, 17%, 1);
+  --dark-2: hsla(213, 9%, 19%, 1);
+  --dark-3: hsla(216, 9%, 11%, 1);
+  --black: hsla(0, 0%, 0%, 1);
+  --green: hsla(138, 68%, 30%, 1);
+  --orange-1: hsla(9, 100%, 64%, 1);
+  --orange-2: hsla(11, 81%, 63%, 1);
+  --orange-3: hsla(10, 100%, 65%, 1);
+  --orange-4: hsla(14, 100%, 68%, 1);
+  --orange-5: hsla(9, 100%, 64%, 1);
+  --orange-6: hsla(9, 100%, 64%, 0.73);
+  --size-1: 8px;
+  --size-2: 9px;
+  --size-3: 11px;
+  --size-4: 13px;
+  --size-5: 15px;
+  --size-6: 18px;
+  --size-7: 21px;
+  --size-8: 38px;
 }
 
 html {
-  max-width: 420px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  padding: 0;
   min-width: 320px;
-  min-height: 100vh;
+  max-width: 420px;
+  min-height: 100%;
+  font-family: 'nova-regular', sans-serif;
+  letter-spacing: 1.5px;
 }

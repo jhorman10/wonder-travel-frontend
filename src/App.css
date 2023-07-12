@@ -1,42 +1,143 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+#reserve-info {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--white);
+}
+
+div h1{
+    margin: 0;
+    padding: 0;
+}
+
+.info-box-1 {
+  display: flex;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0000001), var(--black)),
+    url('./assets/images/cerro-pajarito11-@3x.png');
+  background-size: cover;
+  background-position: bottom;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.wonder-travel-logo {
+  width: 240px;
+  height: 80px;
+  margin-top: 160px;
+  margin-bottom: 60px;
+}
+
+.wonder-travel-title {
+  font-family: 'Abril Fatface';
+  font-size: var(--size-8);
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dayBox {
+  width: 255px;
+  height: 45px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid var(--white);
+  border-radius: 4px;
+  margin: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.locationIcon {
+  width: 25px;
+}
+.dayBox-text {
+  font-size: var(--size-6);
+}
+.location {
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-around;
+  margin: 10px;
 }
 
-.card {
-  padding: 2em;
+.location-map {
+  width: 44px;
+}
+.location-text {
+  font-size: var(--size-4);
 }
 
-.read-the-docs {
-  color: #888;
+.info-box-2 {
+  width: 100%;
+  height: 60vh;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-description-1 {
+    margin: 0;
+  width: 50vw;
+  font-family: 'nova-regular';
+  font-size: var(--size-4);
+  text-align: center;
+}
+.description {
+}
+
+.reserve-info-box {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.lbl-whatsapp {
+  font-family: 'nova-regular';
+  font-size: var(--size-4);
+  text-align: center;
+}
+
+.info-button {
+  border: none;
+  width: 255px;
+  height: 55px;
+  border-radius: 10px;
+  background: linear-gradient(to bottom, var(--orange-4), var(--orange-5));
+  box-shadow: 0 0 40px 5px var(--orange-6);
+  color: var(--white);
+  font-size: var(--size-6);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.WhatsAppIcon {
+  width: 36px;
+  height: 36px;
+}
+.arrow-down {
+  margin-top: 20px;
+}
+
+.hr-divider {
+  width: 50%;
 }
