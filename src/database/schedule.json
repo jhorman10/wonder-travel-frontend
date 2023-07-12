@@ -1,0 +1,136 @@
+{
+  "Día 1": [
+    {
+      "title": "",
+      "subtitle": "Inicio",
+      "icon": "",
+      "description": "Ciudad de Origen"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Vuelo (1.5h) (No incluido, lo podemos organizar por ti)"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Llegada a Pto. Inírida"
+    },
+    {
+      "title": "Los Cerros Sagrados",
+      "subtitle": "Travesía en lancha (2h) desde Puerto Inírida",
+      "icon": "",
+      "description": "Visita a los Cerros de Mavicure, Pajarito y Mono Visita a los Cerros de Mavicure, Pajarito y Mono"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Almuerzo en Comunidad Indigena"
+    },
+    {
+      "title": "Cerro Diablo",
+      "subtitle": "",
+      "icon": "",
+      "description": "Caminata y escalada al atardecer"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Alojamiento y cena en cabañas indígenas"
+    }
+  ],
+  "Día 2": [
+    {
+      "title": "Ascenso al Cerro Mavicure",
+      "subtitle": "",
+      "icon": "",
+      "description": "Para deleitarse con los paisajes del escudo guayanés"
+    },
+    {
+      "title": "Caño San Joaquín",
+      "subtitle": "",
+      "icon": "",
+      "description": "El “oasis del Guainía”, te estremecerá con sus aguas color naranja"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Almuerzo en Comunidad Indigena"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Desplazamiento a la comunidad La Ceiba"
+    },
+    {
+      "title": "Ictiofauna Nocturna",
+      "subtitle": "Travesía en canoa por el Caño Pajarito para conocer los peces de la región",
+      "icon": "",
+      "description": "def. Ictiofauna: Conjunto de peces de una zona acuática acotada"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Alojamiento y cena en cabañas indígenas"
+    }
+  ],
+  "Día 3": [
+    {
+      "title": "Comunidad la Ceiba",
+      "subtitle": "",
+      "icon": "",
+      "description": "Conocerás sus iniciativas productivas sostenibles como la Ruta de la Miel"
+    },
+    {
+      "title": "Actividad Verde",
+      "subtitle": "Ruta de la Miel",
+      "icon": "",
+      "description": "Conoce la iniciativa de producción de miel orgánica que ayuda a reforestar la Orinoquía"
+    },
+    {
+      "title": "El gran Río Orinoco y la Estrella Fluvial",
+      "subtitle": "",
+      "icon": "",
+      "description": "Visita a la Estrella Fluvial donde convergen los Ríos Guaviare, Atabapo e Inírida originando el gran Río Orinoco"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Almuerzo en Reserva Natural"
+    },
+    {
+      "title": "¡A nadar!",
+      "subtitle": "Baño en las aguas del Río Atabapo en la piedra de Maviso",
+      "icon": "",
+      "description": "Río Atabapo"
+    },
+    {
+      "title": "Dosel/ Canopy",
+      "subtitle": "Atravesando el nororiente amazónico por las copas de los árboles.",
+      "icon": "",
+      "description": "Reserva Natural Morú"
+    },
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Alojamiento y cena en Reserva Natural Morú"
+    }
+  ],
+  "Día 4": [
+    {
+      "title": "",
+      "subtitle": "",
+      "icon": "",
+      "description": "Alojamiento y cena en Reserva Natural Morú"
+    }
+  ]
+}
