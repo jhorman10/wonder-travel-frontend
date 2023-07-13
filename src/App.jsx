@@ -1,10 +1,11 @@
 import './App.css';
-import { ReserveInfo } from './ReserveInfo';
+import { ReserveInfo, Schedule } from './pages';
 
 function App() {
   return (
     <>
       <ReserveInfo />
+      <Schedule />
     </>
   );
 }

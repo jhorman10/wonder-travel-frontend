@@ -31,6 +31,7 @@
 :root {
   --transparent: hsla(0, 0%, 0%, 0);
   --white: hsla(0, 0%, 100%, 1);
+  --white-2: hsla(50, 60%, 98%, 1);
   --gray-1: hsla(0, 0%, 0%, 0.16);
   --gray-2: hsla(0, 0%, 0%, 0.24);
   --gray-3: hsla(0, 0%, 0%, 0.27);
