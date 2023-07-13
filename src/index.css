@@ -80,3 +80,7 @@ body {
   font-family: 'nova-regular', sans-serif;
   letter-spacing: 1.5px;
 }
+
+#wonder--app{
+  width: 100vw;
+}
