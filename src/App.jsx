@@ -1,11 +1,14 @@
 import './App.css';
-import { ReserveInfo, Schedule } from './pages';
+import { Footer } from './components';
+import { Contact, ReserveInfo, Schedule } from './pages';
 
 function App() {
   return (
     <>
       <ReserveInfo />
       <Schedule />
+      <Contact/>
+      <Footer/>
     </>
   );
 }

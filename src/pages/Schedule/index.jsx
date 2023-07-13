@@ -48,15 +48,22 @@ export const Schedule = () => {
         <img src={MountainTop} className="schedule--details--img-top" />
         <div className="schedule--details--title-container">
           <div>
-            <h2 className='schedule--details--title-h1'>La travesía:</h2>
+            <h2 className="schedule--details--title-h1">La travesía:</h2>
           </div>
           <div>
-            <p className='schedule--details--title-p'>
+            <p className="schedule--details--title-p">
               Wonder Travel
-              <img className='schedule--details--title-img' src={LocationIcon} alt="" />
+              <img
+                className="schedule--details--title-img"
+                src={LocationIcon}
+                alt=""
+              />
             </p>
           </div>
         </div>
+      </div>
+      <div className="schedule--stepper">
+        
       </div>
     </section>
   );

@@ -1,5 +1,7 @@
 export const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className="footer--container">
+      <p className="footer--container-p">© Copyright Wonder Travel</p>
+    </div>
   )
 }
