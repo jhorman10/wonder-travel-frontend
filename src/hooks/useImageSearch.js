@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import DefaultIcon from '../assets/images/Path_2202.png'
 
 const useImageSearch = (imageName) => {
   const [imageUrl, setImageUrl] = useState('');
@@ -18,7 +19,7 @@ const useImageSearch = (imageName) => {
         } else if (svgImage) {
           setImageUrl(svgImage);
         } else {
-          setImageUrl('../assets/images/Path 2202.svg');
+          setImageUrl(DefaultIcon);
         }
       } catch (error) {
         console.error(error);

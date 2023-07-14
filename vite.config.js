@@ -16,9 +16,9 @@ export default defineConfig({
         theme_color: '#ffffff',
         icons: [
           {
-            src: '/src/assets/images/Group 1098.svg',
+            src: '/src/assets/images/Path_2202.png',
             sizes: '192x192',
-            type: 'image/svg',
+            type: 'image/png',
           },
         ],
       },
