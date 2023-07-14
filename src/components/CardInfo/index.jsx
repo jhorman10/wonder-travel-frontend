@@ -1,7 +1,10 @@
 import PropTypes from 'prop-types';
+import useImageSearch from '../../hooks/useImageSearch';
 
 export const CardInfo = ({ title, subtitle, icon, description }) => {
+  const {imageUrl} = useImageSearch(icon)
   const green = 'Actividad Verde';
+  const start = 'Inicio';
   return (
     <div
       className={`schedule--day--info ${
@@ -12,7 +15,13 @@ export const CardInfo = ({ title, subtitle, icon, description }) => {
     >
       <div className="schedule--day--info-content">
         <h2 className="schedule--day--info-h2">{title}</h2>
-        <p className="schedule--day--info-p">{subtitle}</p>
+        <p
+          className={`schedule--day--info-p ${
+            subtitle === start ? 'p-start' : ''
+          }`}
+        >
+          {subtitle}
+        </p>
       </div>
       <div
         className={`${
@@ -21,7 +30,7 @@ export const CardInfo = ({ title, subtitle, icon, description }) => {
             : 'schedule--day--info-content-icon-green'
         }`}
       >
-        <img className="schedule--day--info-icon" src={icon} alt="" />
+        <img className="schedule--day--info-icon" src={imageUrl} alt="" />
       </div>
       <div className="schedule--day--info-content">
         <p className="schedule--day--info-p">{description}</p>

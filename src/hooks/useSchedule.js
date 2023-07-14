@@ -14,6 +14,6 @@ export const useSchedule = () => {
     };
 
     fetchData();
-  }, []);
+  }, [data]);
   return { data };
 };

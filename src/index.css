@@ -82,5 +82,7 @@ body {
 }
 
 #wonder--app {
-  width: 100vw;
+  min-width: 320px;
+  max-width: 420px;
+  min-height: 100%;
 }

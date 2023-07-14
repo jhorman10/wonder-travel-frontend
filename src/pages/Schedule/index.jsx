@@ -18,7 +18,10 @@ export const Schedule = () => {
       {data.map((day, i) => (
         <ScheduleStepper key={i} dataDay={day} day={i+1}/>
       ))}
-      
+      <div>
+        <img src="" alt="" />
+        <h3 className="schedule--title-h3">Regreso a ciudad de origen</h3>
+      </div>
     </section>
   );
 };
