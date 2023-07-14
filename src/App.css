@@ -16,21 +16,21 @@ div h1 {
 .info-box-1 {
   display: flex;
   width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.0000001), var(--black)),
-    url('./assets/images/cerro-pajarito11-@3x.png');
+  height: 50vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.0000001), var(--black)), url(/src/assets/images/cerro-pajarito11-@3x.png);
   background-size: cover;
   background-position: bottom;
   flex-direction: column;
   flex-wrap: nowrap;
   align-content: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
 .wonder-travel-logo {
   width: 240px;
   height: 80px;
-  margin-top: 160px;
+  margin-top: 60px;
   margin-bottom: 60px;
 }
 
@@ -56,9 +56,11 @@ div h1 {
 .locationIcon {
   width: 25px;
 }
+
 .dayBox-text {
   font-size: var(--size-6);
 }
+
 .location {
   width: 250px;
   display: flex;
@@ -70,8 +72,13 @@ div h1 {
 }
 
 .location-map {
-  width: 44px;
+  width: 55px;
 }
+
+.location-map-location {
+  margin-left: -25px;
+}
+
 .location-text {
   font-size: var(--size-4);
 }
@@ -96,8 +103,35 @@ div h1 {
   font-size: var(--size-4);
   text-align: center;
 }
+
 .description {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-box {
+  width: 160px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.description-box-img {
+  width: 35px;
+  margin: 20px;
+}
+
+.description-box-p {
+  color: var(--white);
+  font-size: var(--size-4);
+  font-family: 'nova-regular', sans-serif;
 }
 
 .reserve-info-box {
@@ -146,7 +180,7 @@ div h1 {
 #Schedule {
   background-color: var(--white);
   color: var(--black);
-  padding-top: 30px;
+  padding-top: 40px;
   box-sizing: border-box;
 }
 
@@ -275,6 +309,7 @@ div h1 {
   align-items: stretch;
   justify-content: space-around;
   gap: 20px;
+  padding-bottom: 20px;
 }
 
 .schedule--stepper-day {
@@ -314,17 +349,16 @@ div h1 {
   gap: 10px;
 }
 
-/* .schedule--day--info::before {
+.schedule--day--info::before {
   content: '';
   position: absolute;
-  top: 50%;
+  bottom: -20px;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 10px;
+  width: 5px;
   height: 10px;
-  background-color: #000;
-  border-radius: 50%;
-} */
+  background-color: var(--orange-5);
+}
 
 .schedule--day--info-card-style {
   z-index: 1;
@@ -385,6 +419,14 @@ div h1 {
   height: 35px;
   border-radius: 10000px;
   background-color: var(--green);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.schedule--day--info-ext {
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;

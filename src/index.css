@@ -69,6 +69,7 @@ html {
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
+  scroll-behavior: smooth;
 }
 
 body {
