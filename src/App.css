@@ -144,7 +144,7 @@ div h1 {
 }
 
 #Schedule {
-  background-color: var(--white-2);
+  background-color: var(--white);
   color: var(--black);
   padding-top: 30px;
   box-sizing: border-box;
@@ -257,8 +257,98 @@ div h1 {
   margin-left: 5px;
 }
 
+.schedule--stepper {
+  background-image: url('https://wondertravel.co/wp-content/uploads/2023/02/wondertravel-main-lines-bkg1-scaled.jpg');
+  background-position: center center;
+  background-repeat: repeat;
+  background-size: 300px auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.schedule--stepper-day {
+  padding-right: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.schedule--stepper-day-p {
+  display: flex;
+  width: 115px;
+  border-top: 1px solid var(--orange-5);
+  font-size: var(--size-6);
+  font-family: 'nova-bold', sans-serif;
+  color: var(--orange-5);
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: baseline;
+}
+
+.schedule--day--info {
+  padding: 0 30px;
+  margin: 0 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.schedule--day--info-card-style {
+  z-index: 1;
+  background-color: var(--white);
+  border: 0 solid var(--black);
+  border-radius: 10px;
+  box-shadow: 3px 2px 15px 5px var(--gray-1);
+}
+
+.green-activity {
+  border: 2px solid var(--green);
+  border-radius: 10px;
+}
+
+.schedule--day--info-content {
+  width: 150px;
+}
+
+.schedule--day--info-h2 {
+  font-family: 'nova-bold', sans-serif;
+  font-size: var(--size-6);
+  color: var(--black);
+}
+.schedule--day--info-p {
+  font-family: 'nova-regular', sans-serif;
+  font-size: var(--size-4);
+  color: var(--black);
+}
+.schedule--day--info-content-icon {
+  width: 50px;
+  height: 35px;
+  border-radius: 10000px;
+  background-color: var(--orange-5);
+}
+
+.schedule--day--info-content-icon-green {
+  width: 50px;
+  height: 35px;
+  border-radius: 10000px;
+  background-color: var(--green);
+}
+
 #contact {
-  background-color: var(--white-2);
+  background-color: var(--white);
   color: var(--black);
   padding-top: 30px;
   box-sizing: border-box;
@@ -268,13 +358,13 @@ div h1 {
   gap: 10px;
   padding-bottom: 50px;
 }
-.contact--divider{
+.contact--divider {
   background-color: var(--gray-8);
   width: 310px;
   height: 1px;
 }
 
-.contact--images-container{
+.contact--images-container {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -282,7 +372,7 @@ div h1 {
   align-items: center;
 }
 
-.contact--vertical-divider{
+.contact--vertical-divider {
   margin: 0 20px;
   background-color: var(--orange-6);
   width: 2px;
@@ -299,7 +389,7 @@ div h1 {
   color: var(--black);
 }
 
-.contact--image--acotur-h3{
+.contact--image--acotur-h3 {
   margin: 0;
   margin-top: 10px;
   padding: 0;
@@ -328,7 +418,7 @@ div h1 {
 
 .footer--container-p {
   text-align: center;
-  color: var(--white-2);
+  color: var(--white);
   font-family: 'nova-regular', sans-serif;
   font-size: var(--size-6);
 }

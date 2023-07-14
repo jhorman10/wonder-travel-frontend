@@ -1,5 +1,5 @@
-{
-  "Día 1": [
+[
+  [
     {
       "title": "",
       "subtitle": "Inicio",
@@ -43,7 +43,7 @@
       "description": "Alojamiento y cena en cabañas indígenas"
     }
   ],
-  "Día 2": [
+  [
     {
       "title": "Ascenso al Cerro Mavicure",
       "subtitle": "",
@@ -81,7 +81,7 @@
       "description": "Alojamiento y cena en cabañas indígenas"
     }
   ],
-  "Día 3": [
+  [
     {
       "title": "Comunidad la Ceiba",
       "subtitle": "",
@@ -125,7 +125,7 @@
       "description": "Alojamiento y cena en Reserva Natural Morú"
     }
   ],
-  "Día 4": [
+  [
     {
       "title": "",
       "subtitle": "",
@@ -133,4 +133,4 @@
       "description": "Alojamiento y cena en Reserva Natural Morú"
     }
   ]
-}
+]
